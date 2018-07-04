@@ -84,14 +84,16 @@ QUICK START
 
 Example urls.yaml file
 
-```kind: url
+kind: url
 name: klwines.com product feed
 url: http://www.klwines.com/productfeed?&productTypeCD=10&minprice=&maxprice=&page=1
 filter: element-by-id:col-b
 ---
 kind: url
 name: google
-url: https://google.com```
+url: https://google.com
+
+
 
 TIPS AND TRICKS
 ---------------
